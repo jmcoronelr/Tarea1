@@ -4,7 +4,7 @@ This is an application build with Java. The goal of the project is to keep recor
 This is an application build with Java. The goal of the project is to get the monthly payment of a given lease.
 # Project Structure
 Tarea_1<br>
-├── .idea # IntelliJ IDEA project configuration files
+├── .idea # IntelliJ IDEA project configuration files<br>
 ├── .gitignore # Git ignore file to exclude local files<br>
 ├── Employee_record.java # Java file with employee management logic<br>
 ├── Lease_Payment.java # Java file with lease management logic<br>
