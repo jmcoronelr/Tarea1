@@ -40,7 +40,7 @@ public class Employee_Record {
      *  Prints a message in console.
      * @param message The string to print.
      */
-    private static void show_message(String message) {
+    public static void show_message(String message) {
         System.out.println(message);
     }
 
@@ -64,7 +64,7 @@ public class Employee_Record {
      * @param string The text evaluated.
      * @return  true if there is a digit inside the string, otherwise false.
      */
-    private static boolean invalid_string(String string) {
+    public static boolean invalid_string(String string) {
         int length = string.length();
         for (int i = 0; i < length ; i++) {
             char c = string.charAt(i);
@@ -81,7 +81,7 @@ public class Employee_Record {
      * @param message The prompt to guide the user
      * @return The required integer
      */
-    private static int getNumberInput(Scanner input_int, String message) {
+    public static int getNumberInput(Scanner input_int, String message) {
         show_message(message);
         return input_int.nextInt();
     }
@@ -92,7 +92,7 @@ public class Employee_Record {
      * @param message The prompt to guide the user
      * @return The required string
      */
-    private static String getStringInput(Scanner input_str, String message) {
+    public static String getStringInput(Scanner input_str, String message) {
         show_message(message);
         return input_str.nextLine();
     }
