@@ -4,6 +4,7 @@ This is an application build with Java. The goal of the project is to keep recor
 This is an application build with Java. The goal of the project is to get the monthly payment of a given lease.
 # Project Structure
 Tarea_1<br>
+├── .idea # IntelliJ IDEA project configuration files
 ├── .gitignore # Git ignore file to exclude local files<br>
 ├── Employee_record.java # Java file with employee management logic<br>
 ├── Lease_Payment.java # Java file with lease management logic<br>
@@ -21,4 +22,4 @@ Tarea_1<br>
 * The program will run in the console window of the IDE, where you can interact with the employee management system.
 # Requirements
 * **Java SDK 17 or higher:** Ensure you have at least Java 17 installed on your machine.
-* **IDE**: You can use other Java IDEs, but we recommend IntelliJ.
+* **IDE**: You can use other Java IDEs, but the .idea/ folder is specific to IntelliJ.
